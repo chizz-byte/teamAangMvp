@@ -1,0 +1,9 @@
+# Large/generated files
+uploads/listings/*
+!uploads/listings/.gitkeep
+!uploads/.htaccess
+
+# OS / editor
+Thumbs.db
+.DS_Store
+*.log

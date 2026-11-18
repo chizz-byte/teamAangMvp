@@ -1,0 +1,4 @@
+# Deny direct access to sensitive files
+<FilesMatch "^(database\.php|\.env|\.git.*)$">
+  Require all denied
+</FilesMatch>

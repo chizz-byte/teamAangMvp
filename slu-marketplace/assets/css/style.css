@@ -1,0 +1,30 @@
+:root {
+  --slu-navy: #1b3a6b;
+  --slu-blue: #2f6fed;
+  --slu-light: #eef3fb;
+}
+
+body { background: #f6f8fb; font-family: "Segoe UI", system-ui, -apple-system, sans-serif; }
+
+.slu-navbar { background: linear-gradient(90deg, var(--slu-navy), #25477f); }
+.slu-navbar .navbar-brand { letter-spacing: .3px; }
+.slu-navbar .nav-link { font-weight: 500; }
+.slu-navbar .nav-link:hover, .slu-navbar .nav-link.active { color: #ffd479 !important; }
+
+.slu-footer { border-top: 1px solid #e3e8f0; }
+
+.listing-card { transition: transform .12s ease, box-shadow .12s ease; }
+.listing-card:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(20,40,80,.12); }
+.listing-img { height: 180px; object-fit: cover; width: 100%; }
+
+.card { border: 1px solid #e3e8f0; border-radius: 12px; }
+.btn-primary { background: var(--slu-blue); border-color: var(--slu-blue); }
+.btn-primary:hover { background: #2559c4; border-color: #2559c4; }
+
+.text-warning { color: #f0ad4e !important; }
+
+.table th { font-weight: 600; color: #445; }
+
+.form-control:focus, .form-select:focus { border-color: var(--slu-blue); box-shadow: 0 0 0 .15rem rgba(47,111,237,.15); }
+
+.nav-tabs .nav-link.active { color: var(--slu-navy); font-weight: 600; }
